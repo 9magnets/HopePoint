@@ -26,7 +26,7 @@ So do you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska
 
 8) Do you need to have your device continue to fake your location while not connected to Xcode? This was important for us, as we often had to do testing and spoof our iOS device's location when not connected for debugging. If so, DO NOT stop the project in Xcode, and instead just disconnect your device from your computer's USB port. You should receive an error from Xcode that device connection has been lost. This is expected, just hit OK.
 
-9) Your device should continue to report Point Hope, Alaska in location services for a significant period of time, potentially as long as until the iPhone, iPad, or Apple TV is restarted. Take note of this, if you go to use your device for directions, mapping, or any other third-party app that uses location services, as your device will be in accurate and may cause you some headache. For example, if your device time is set to change automatically based upon your current location, your device will soon change it's clock to the Alaska Time Zone.
+9) Your device should continue to report Point Hope, Alaska in location services for a significant period of time, potentially as long as until the iPhone, iPad, or Apple TV is restarted. Take note of this, if you go to use your device for directions, mapping, or any other third-party app that uses location services, as your device will be inaccurate and may cause you some headache. For example, if your device time is set to change automatically based upon your current location, your device will soon change it's clock to the Alaska Time Zone.
 
 10) Location change back to your actual location? Just connect your iOS device back to your Mac, launch Xcode, and hit run.
 
