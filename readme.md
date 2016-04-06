@@ -14,7 +14,7 @@ So do you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska
 
 3) Connect the iPhone, iPad, or Apple TV that you would like to spoof a location with to your Macintosh. 
 
-4) You'll likely need to change the application's Bundle Identifier. Currently it is com.9magnets.highpoint. Change this to com.whateveryouwant.highpoint, and you should be good.
+4) You'll likely need to change the application's Bundle Identifier. Currently it is com.9magnets.hopepoint. Change this to com.whateveryouwant.hopepoint, and you should be good.
 
 5) In the Xcode project navigator, choose your device from the Scheme toolbar menu. Then click on the Run button. 
 
