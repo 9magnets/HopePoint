@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+.idea/
+
+*.pbxuser
+*.perspectivev3
+build
+.svn
+xcuserdata
+*.mode1v3
+

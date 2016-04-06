@@ -1,0 +1,20 @@
+{
+  "layers" : [
+    {
+      "filename" : "9---full-color.imagestacklayer"
+    },
+    {
+      "filename" : "background-copy.imagestacklayer"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "canvasSize" : {
+      "width" : 1280,
+      "height" : 768
+    }
+  }
+}
