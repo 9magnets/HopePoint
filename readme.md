@@ -8,15 +8,15 @@ So do you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska
 
 ### Steps 
 
-1) Clone this repository.
+1) Clone this repository, or download the ZIP of the latest source code directly from from GitHub.
 
-2) Make sure that you have the latest version of Xcode installed on a Macintosh computer. It is available from the Mac App Store. This application will not work through an AdHoc build, so you will need a Mac and Xcode to install directly.
+2) Make sure that you have the latest version of Xcode installed on a Macintosh computer. It is available from the Mac App Store. This application will not work through an AdHoc build, so you will need a Mac and Xcode to install directly. After you've downloaded the code, open hopepoint.xcodeproj if you need this app to work with an iPhone or iPad. Or open highpoint_tv.xcodeproj if you want to spoof location on an Apple TV. If you'd like to swap quickly between iOS or tvOS devices, open highpoint.xcworkspace, and flip between schemes.
 
 3) Connect the iPhone, iPad, or Apple TV that you would like to spoof a location with to your Macintosh. 
 
 4) You'll likely need to change the application's Bundle Identifier. Currently it is com.9magnets.hopepoint. Change this to com.whateveryouwant.hopepoint, and you should be good.
 
-5) In the Xcode project navigator, choose your device from the Scheme toolbar menu. Then click on the Run button. 
+5) In the Xcode project navigator, choose your device from the Scheme toolbar menu. Then click on the Run button. The first time you run the app, you may need to allow Xcode to set up a proper signing and provisioning. If prompted with "Fix It", feel free to hit Yes, and you should be good to go. 
 
 6) Hope Point should run on your iPhone, iPad, or Apple TV, and using the default GPX file, your device's location services should set your current location as Point Hope, Alaska, when you use Maps.app, or any other application that uses location services. To test, we typically launch the Maps app before we launch the app we are testing, to verify that it correctly reports us in the proper city. If your device does not update, and continues to have you at your actual physical location, skip below to Step 7.
   
@@ -26,7 +26,7 @@ So do you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska
 
 8) Do you need to have your device continue to fake your location while not connected to Xcode? This was important for us, as we often had to do testing and spoof our iOS device's location when not connected for debugging. If so, DO NOT stop the project in Xcode, and instead just disconnect your device from your computer's USB port. You should receive an error from Xcode that device connection has been lost. This is expected, just hit OK.
 
-9) Your device should continue to report Point Hope, Alaska in location services for a significant period of time, potentially as long as until the iPhone, iPad, or Apple TV is restarted. Take note of this, if you go to use your device for directions, mapping, or any other third-party app that uses location services, as your device will be in accurate and may cause you some headache. 
+9) Your device should continue to report Point Hope, Alaska in location services for a significant period of time, potentially as long as until the iPhone, iPad, or Apple TV is restarted. Take note of this, if you go to use your device for directions, mapping, or any other third-party app that uses location services, as your device will be in accurate and may cause you some headache. For example, if your device time is set to change automatically based upon your current location, your device will soon change it's clock to the Alaska Time Zone.
 
 10) Location change back to your actual location? Just connect your iOS device back to your Mac, launch Xcode, and hit run.
 
