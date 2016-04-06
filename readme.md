@@ -1,10 +1,10 @@
 ## Hope Point by 9magnets, LLC
 
-Hi, are you an iOS developer? Have you ever built an application that requires location services? Ever need an easy way to have your physical iPhone, iPad, or Apple TV pretend that it's in a location where you currently are not? Before you answer.
+Hi, are you an iOS or tvOS developer? Ever need an easy way to spoof locations on your physical iPhone, iPad, or Apple TV to pretend that the device is somewhere you currently are not? Maybe you're like us, and you've built an application that requires location services, and you need to test it your development work? Would you prefer to not jailbreak your phone in order to do this?
 
-Let me introduce you to Hope Point. We've been building a location-based application, and with this, needed a way to fake our device's location in order to better mimic what we would see out in the real world. Hope Point was a quick way for us to trick our physical iPhones and iPads into believing we were in Hope Point, Alaska, or one of several other test locations we needed.
+Let me introduce you to Hope Point. We've been building a location-based application, and with this, needed a way to fake our device's location in order to better mimic what we would see out in the real world. Hope Point was a quick way for us to trick our physical iPhones and iPads into believing we were in Hope Point, Alaska, or one of several other test locations we needed. We've used this method directly into our project for testing, but we've created a sample project here so that you can spoof your device's location for testing, and copy our work for integration into your own testing. It's a simple addition of a GPX file into a standard Xcode Scheme launch option. But if you're a novice developer, you may have never heard about this valuable iOS tool. To help, we've built this sample repo for you to learn and test with.
 
-So do you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska? Or New York? How about London? Maybe Chicago? Just clone this repository, and you're halfway there.
+So if you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska, New York, London, Chicago, or any other city worldwide, just clone this repository and you're halfway there.
 
 ### Steps 
 
