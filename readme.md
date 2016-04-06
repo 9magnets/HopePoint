@@ -8,7 +8,7 @@ So do you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska
 
 ### Steps 
 
-1) Clone this repository, or download the ZIP of the latest source code directly from from GitHub.
+1) Clone this repository, or [download the ZIP of the latest source code](https://github.com/9magnets/HopePoint/archive/master.zip) directly from from GitHub.
 
 2) Make sure that you have the latest version of Xcode installed on a Macintosh computer. It is available from the Mac App Store. This application will not work through an AdHoc build, so you will need a Mac and Xcode to install directly. After you've downloaded the code, open hopepoint.xcodeproj if you need this app to work with an iPhone or iPad. Or open highpoint_tv.xcodeproj if you want to spoof location on an Apple TV. If you'd like to swap quickly between iOS or tvOS devices, open highpoint.xcworkspace, and flip between schemes.
 
