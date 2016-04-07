@@ -4,6 +4,8 @@ Ever need an easy way to spoof locations on your physical iPhone, iPad, or Apple
 
 Let me introduce you to Hope Point. We've been building a location-based application, and with this, needed a way to fake our device's location in order to better mimic what we would see out in the real world. Hope Point was a quick way for us to trick our physical iPhones and iPads into believing we were in Point Hope, Alaska, or one of several other test locations we needed. We've used this method directly into our project for testing, but we've created a sample project here so that you can spoof your device's location for testing, and copy our work for integration into your own testing. It's a simple addition of a GPX file into a standard Xcode Scheme launch option. But if you're a novice developer, you may have never heard about this valuable iOS tool. To help, we've built this sample repo for you to learn and test with.
 
+Note, there is no code required in your app to do this, the project here is simply a standard shell starter project. Location spoofing is performed entirely using the Debug Scheme default location launch option for when the app is launched using the Run action in Xcode.
+
 So if you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska, New York, London, Chicago, or any other city worldwide, just clone this repository and you're halfway there.
 
 ### Steps 
@@ -24,7 +26,7 @@ So if you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska
 
 7) If you need to change your location from Point Hope to a different city or if the app does not automatically set your city, go into Xcode's Debug menu. Once in the Debug menu, scroll down to Simulate Location, and select a different city or add a new GPX file to the workspace. We've included our common test cities inside the workspace's Supporting Files. 
 
-8) Do you need to have your device continue to fake your location while not connected to Xcode? This was crucial for us, as we often had to do testing and spoof our iOS device's location when not connected for user testing. To have your device continue to spoof location when not connected to your computer, DO NOT stop the project in Xcode and instead just disconnect your device from your computer's USB port. You should receive an error from Xcode that device connection has been lost. This is expected, just hit OK.
+8) Do you need to have your device continue to fake your location while not connected to Xcode? This was crucial for us, as we often had to spoof our iOS device's location when not connected to a computer for user testing. To have your device continue to spoof location when not connected to your computer, DO NOT stop the project in Xcode and instead just disconnect your device from your computer's USB port. You should receive an error from Xcode that device connection has been lost. This is expected, just hit OK.
 
 9) Your device should continue to report Point Hope, Alaska in location services for a significant period of time, potentially as long as until the iPhone, iPad, or Apple TV is restarted. Take note of this, if you go to use your device for directions, mapping, or any other third-party app that uses location services, as your device will be inaccurate and may cause you some headache. For example, if your device clock is set to change automatically based upon your current location, your device will soon change it's clock to match the Alaska Time Zone.
 
