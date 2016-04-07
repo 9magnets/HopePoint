@@ -17,6 +17,10 @@
 		39854A2E1CB57BDC00D19C94 /* London.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 39854A291CB57BDC00D19C94 /* London.gpx */; };
 		39854A2F1CB57BDC00D19C94 /* New_York.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 39854A2A1CB57BDC00D19C94 /* New_York.gpx */; };
 		39854A301CB57BDC00D19C94 /* Point_Hope.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 39854A2B1CB57BDC00D19C94 /* Point_Hope.gpx */; };
+		5B41279C1CB6BA9400F93359 /* Two_Forks.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B4127981CB6BA9400F93359 /* Two_Forks.gpx */; };
+		5B41279D1CB6BA9400F93359 /* Bhopal.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B4127991CB6BA9400F93359 /* Bhopal.gpx */; };
+		5B41279E1CB6BA9400F93359 /* LaPiedad.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B41279A1CB6BA9400F93359 /* LaPiedad.gpx */; };
+		5B41279F1CB6BA9400F93359 /* Toronto.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5B41279B1CB6BA9400F93359 /* Toronto.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		39854A291CB57BDC00D19C94 /* London.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = London.gpx; sourceTree = "<group>"; };
 		39854A2A1CB57BDC00D19C94 /* New_York.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = New_York.gpx; sourceTree = "<group>"; };
 		39854A2B1CB57BDC00D19C94 /* Point_Hope.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Point_Hope.gpx; sourceTree = "<group>"; };
+		5B4127981CB6BA9400F93359 /* Two_Forks.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Two_Forks.gpx; sourceTree = "<group>"; };
+		5B4127991CB6BA9400F93359 /* Bhopal.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bhopal.gpx; sourceTree = "<group>"; };
+		5B41279A1CB6BA9400F93359 /* LaPiedad.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LaPiedad.gpx; sourceTree = "<group>"; };
+		5B41279B1CB6BA9400F93359 /* Toronto.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Toronto.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		39854A131CB57BD500D19C94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B4127981CB6BA9400F93359 /* Two_Forks.gpx */,
+				5B4127991CB6BA9400F93359 /* Bhopal.gpx */,
+				5B41279A1CB6BA9400F93359 /* LaPiedad.gpx */,
+				5B41279B1CB6BA9400F93359 /* Toronto.gpx */,
 				39854A271CB57BDC00D19C94 /* Cupertino.gpx */,
 				39854A281CB57BDC00D19C94 /* Chicago.gpx */,
 				39854A291CB57BDC00D19C94 /* London.gpx */,
@@ -149,9 +161,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B41279C1CB6BA9400F93359 /* Two_Forks.gpx in Resources */,
 				39854A301CB57BDC00D19C94 /* Point_Hope.gpx in Resources */,
+				5B41279D1CB6BA9400F93359 /* Bhopal.gpx in Resources */,
+				5B41279F1CB6BA9400F93359 /* Toronto.gpx in Resources */,
 				39854A2C1CB57BDC00D19C94 /* Cupertino.gpx in Resources */,
 				39854A2F1CB57BDC00D19C94 /* New_York.gpx in Resources */,
+				5B41279E1CB6BA9400F93359 /* LaPiedad.gpx in Resources */,
 				39854A2E1CB57BDC00D19C94 /* London.gpx in Resources */,
 				39854A201CB57BD500D19C94 /* Assets.xcassets in Resources */,
 				39854A2D1CB57BDC00D19C94 /* Chicago.gpx in Resources */,
