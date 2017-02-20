@@ -10,7 +10,7 @@ So if you need a way to make your iPhone, iPad, or Apple TV think it's in Alaska
 
 Note - There's been increasing interest in HopePoint. We hope it's making your app testing life easier. A good deal of questions have been sent to us about how to get a GPX location for specific cities like Miami, Boston, or anywhere else. To do this, we would recommend using a tool like [GPX POI](http://gpx-poi.com). Some other users have asked about creating GPX files that mimic traveling along a specific route by foot or bike, and for that, we'd suggest [Maps to GPX](https://mapstogpx.com). Just create a GPX file with these sites, drag them into the Xcode project, and select that GPX file from the menu.
 
-Installation Tip - Having troubles with this project? New to developing in Xcode? One thoughtful developer put together a guide to help walk through the setup steps, including photos and a bit more information. We welcome you to check out [their anonymous guide here](https://www.pdf-archive.com/2016/12/15/hopepoint-final/).
+Installation Tip - Having troubles with this project? New to developing in Xcode? One thoughtful developer put together a guide to help walk through the setup steps, including photos and a bit more information. We welcome you to check out [their anonymous guide here](https://www.pdf-archive.com/2016/12/15/hopepoint-final/). If you continue to have issues, Apple has created an [extensive guide to help walk through the process](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/LaunchingYourApponDevices/LaunchingYourApponDevices.html#//apple_ref/doc/uid/TP40012582-CH27-SW4) as well.
 
 ### Steps 
 
